@@ -39,8 +39,6 @@ install:
      %CMD_IN_ENV%
      python -c "import sys,platform,struct;
      print(sys.platform, platform.machine(), struct.calcsize('P') * 8, )"
-  # Upgrade to the latest pip.
-  - python.exe -m pip install --upgrade pip
   - .\build_win.bat
   - 7z a jamboree.zip .\dist\*
 
