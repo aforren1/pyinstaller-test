@@ -13,7 +13,7 @@ data_files = [
 ]
 
 a = Analysis(['jamboree.py'],
-             pathex=['C:\\Users\\adf\\Documents\\python\\pyinstaller-test'],
+             pathex=[],
              binaries=[],
              datas=data_files,
              hiddenimports=['pkg_resources.py2_warn', 'freetype', 'glcontext'],
