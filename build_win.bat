@@ -1,6 +1,7 @@
 python -m venv env
 call ./env/Scripts/activate.bat
 python -m pip install --upgrade pip
+pip install git+https://github.com/numpy/numpy@v1.18.2
 pip install git+https://github.com/aforren1/mglg
 pip install pyinstaller
 pyinstaller jamboree_win.spec --noconfirm
