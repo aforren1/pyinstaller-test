@@ -79,7 +79,6 @@ if __name__ == '__main__':
         arrow.rotation = counter
         circle.rotation = counter
         stiparrow.rotation = -counter
-        mouse_cir.position = win.mouse_pos
         countup.text = str(counter)
         countup.color = np.random.random(4)
         if counter % 100 == 0:
